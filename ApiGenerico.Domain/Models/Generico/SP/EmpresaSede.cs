@@ -1,0 +1,16 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ApiGenerico.Domain.Models.Farma.SP
+{
+    public class EmpresaSede
+    {
+        public int IdEmpresa { get; set; }
+        public string Empresa { get; set; }
+        public int IdSede { get; set; }
+        public string Sede { get; set; }
+    }
+}
